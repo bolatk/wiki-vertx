@@ -186,3 +186,8 @@ nbdist/
 /.idea/compiler.xml
 /.idea/encodings.xml
 /.idea/vcs.xml
+/db/wiki.lck
+/db/wiki.lobs
+/db/wiki.log
+/db/wiki.properties
+/db/wiki.script
