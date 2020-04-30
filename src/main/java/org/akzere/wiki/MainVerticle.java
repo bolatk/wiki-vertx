@@ -3,6 +3,7 @@ package org.akzere.wiki;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Promise;
+import org.akzere.wiki.database.WikiDatabaseVerticle;
 
 public class MainVerticle extends AbstractVerticle {
 
@@ -16,7 +17,7 @@ public class MainVerticle extends AbstractVerticle {
 
             Promise<String> httpVerticleDeployment = Promise.promise();
             vertx.deployVerticle(
-                "org.akzere.wiki.HttpServerVerticle",
+                "org.akzere.wiki.http.HttpServerVerticle",
                 new DeploymentOptions().setInstances(2),
                 httpVerticleDeployment);
 

@@ -191,3 +191,5 @@ nbdist/
 /db/wiki.log
 /db/wiki.properties
 /db/wiki.script
+/src/main/generated/org/akzere/wiki/database/WikiDatabaseServiceVertxEBProxy.java
+/src/main/generated/org/akzere/wiki/database/WikiDatabaseServiceVertxProxyHandler.java
